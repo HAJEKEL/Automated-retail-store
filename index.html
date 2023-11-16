@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Automated Retail Store Restocking Using PDDL and ROSPlan</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Automated Retail Store Restocking Using PDDL and ROSPlan</h1>
+            <p>
+                <a href="https://www.linkedin.com/in/henk-jekel-748054259/" target="_blank">
+                    <img src="images/linkedin_icon.png" alt="LinkedIn Pictogram" width="35" height="35">
+                </a>
+                <a href="https://github.com/HAJEKEL/pt.darts" target="_blank">
+                    <img src="images/github_icon.png" alt="Github Pictogram" width="35" height="35">
+                </a>
+                <a href="mailto:hendrikjekel@gmail.com" target="_blank">
+                    <img src="images/gmail_icon.png" alt="Gmail Pictogram" width="35" height="35">
+                </a>
+            </p>
+            <ul class="actions">
+                <li>
+                    <h4>Keep reading to learn more</h4>
+                    <a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active">
+                    <a href="https://hajekel.github.io/">
+                        <span style="font-size: 35px;">&larr;</span> Back to portfolio
+                    </a>
+                </li>
+            </ul>
+
+
+
+
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/henk-jekel-748054259/"
+                        class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a>
+                </li>
+                <li><a href="https://www.kaggle.com/hajekel" class="icon brands fa-kaggle"><span
+                            class="label">Kaggle</span></a></li>
+                <li><a href="https://github.com/HAJEKEL" class="icon brands alt fa-github"><span
+                            class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <span class="date">April 28, 2023</span>
+                    <h1><a>Automated Retail Store Restocking Using PDDL and ROSPlan</a></h1>
+                </header>
+                <a class="image fit"><img src="images/picknplace.gif" alt="EP50-reduce" /></a>
+                <h2>
+                    Project summary
+                </h2>
+                <p>
+                    This project develops a task planning solution using PDDL (Planning Domain Definition Language) and ROSPlan to automate restocking tasks in a retail store with a robot, addressing labor shortages in the retail sector due to an aging population in developed countries. The system enables a robot to restock products in a simulated store environment, determining the correct placement of items based on predefined store rules.
+
+The simulated environment includes various tables such as a stock table, refrigerated table, bin, and non-refrigerated table. A Python-based ontology is utilized to define product classes, with the store rules dictating where products, based on their characteristics like refrigeration needs or damage, should be placed. The initial knowledge base, established in PDDL files, outlines the robot's state and the environmental setup.
+
+The robot's task involves picking up products and placing them at designated locations. This process includes navigating between waypoints, picking items from the stock table, and placing them at their intended destinations, all governed by the store rules. ROSPlan interfaces with the knowledge base, updating it with product-specific predicates and executing a series of actions for each product instance.
+
+However, the planning and execution phase encountered technical challenges, particularly with the simulation in the ROS environment and issues executing the place action. While the generated plan aligned with the design and store rules, the simulation failed to effectively visualize the plan's execution.
+
+For future enhancements, the project suggests exploring alternative planners for more complex scenarios and resolving issues related to the place action interface. Additionally, customizing the simulated world further and using an alternative planner are recommended to enhance the system's efficiency and adaptability. The project illustrates the potential of using a knowledge representation and reasoning approach for automated retail store restocking, highlighting the need for further development for practical implementation.</p>
+                <h2>
+                    Project documents
+                </h2>
+
+                <p>
+                    Report:
+                <ul class="actions special">
+                    <li><a href="KRSR_report.pdf" class="button large">Download PDF</a></li>
+                </ul>
+
+                <h2>
+                    Code implementation
+                </h2>
+
+                <p>
+                    Code for this blog:
+                <ul class="actions special">
+                    <li><a href="https://github.com/HAJEKEL/Automated-retail-store/tree/website"
+                            class="button large">WEBSITE</a></li>
+                </ul>
+                <p> Code to reproduce the results:
+                </p>
+                <ul class="actions special">
+                    <li><a href="https://github.com/HAJEKEL/Automated-retail-store"
+                            class="button large">RESULTS</a></li>
+                </ul>
+            </article>
+
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Address</h3>
+                    <p>Delft, Netherlands<br />
+                </section>
+
+                <section>
+                    <h3>Email</h3>
+                    <p><a>hendrikjekel@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons">
+                        <li><a href="https://www.linkedin.com/in/henk-jekel-748054259/"
+                                class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a>
+                        </li>
+                        <li><a href="https://github.com/HAJEKEL" class="icon brands alt fa-github"><span
+                                    class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>Henk Jekel &copy; 2022</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
