@@ -1,0 +1,6 @@
+#!/bin/bash
+
+IMAGE_FILE="/home/krsr/Documents/KRR/ro47014-22-3.simg"
+
+singularity shell -p "${IMAGE_FILE}"
+

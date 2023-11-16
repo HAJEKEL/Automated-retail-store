@@ -1,0 +1,27 @@
+objects:
+  april_tag_cube_23: 
+    april_tag:
+      goal_id:
+        23
+    position:
+      x: 2.55
+      y: -1.86
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.66
+      w: 0.7451744
+  april_tag_cube_8: 
+    april_tag:
+      goal_id:
+        8
+    position:
+      x: 1
+      y: 2.4
+      z: 0.89
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.689
+      w: 0.72
